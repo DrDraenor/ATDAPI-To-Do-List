@@ -1,0 +1,8 @@
+td.remove, #sortBy, #toggle {
+	text-align: right;
+}
+
+h1, #sortBy, table {
+	margin-bottom: 20px;
+}
+
