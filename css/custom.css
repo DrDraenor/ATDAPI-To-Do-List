@@ -1,13 +1,29 @@
+/* General */
+h1, #taskTable {
+	margin-bottom: 40px;
+}
+
 td.remove, #toggle {
 	text-align: right;
 }
 
+/* Table */
 .status, .date, .dueDate, .remove {
 	width: 150px;
 }
 
+.completed .task, .completed .date, .completed .dueDate {
+	text-decoration: line-through;
+	color: #bbb;
+}
+
+/* Forms and controls */
 label[for="newTaskDueDate"], #addTask button {
 	margin-left: 10px;
+}
+
+#newTaskDueDate {
+	line-height: normal;
 }
 
 #addTask button {
@@ -18,17 +34,6 @@ label[for="newTaskDueDate"], #addTask button {
 	display: inline-block;
 }
 
-h1, #taskTable {
-	margin-bottom: 40px;
-}
 
-.completed .task, .completed .date, .completed .dueDate {
-	text-decoration: line-through;
-	color: #bbb;
-}
-
-#newTaskDueDate {
-	line-height: normal;
-}
 
 
