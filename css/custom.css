@@ -2,7 +2,6 @@
 h1, #taskTable {
 	margin-bottom: 40px;
 }
-
 td.remove, #toggle {
 	text-align: right;
 }
@@ -11,29 +10,34 @@ td.remove, #toggle {
 .status, .date, .dueDate, .remove {
 	width: 150px;
 }
-
 .completed .task, .completed .date, .completed .dueDate {
 	text-decoration: line-through;
 	color: #bbb;
 }
+.remove button {
+	line-height: 0.9em;
+	display: none;
+}
+tr:hover {
+	background-color: #fafafa;
+}
 
 /* Forms and controls */
+#toggle, h1, #idControl {
+	display: inline-block;
+}
+#idControl {
+	text-align: right;
+	margin-top: 30px;
+}
+#apiId, #addTask button  {
+	width: 120px;
+}
 label[for="newTaskDueDate"], #addTask button {
 	margin-left: 10px;
 }
-
 #newTaskDueDate {
 	line-height: normal;
 }
-
-#addTask button {
-	width: 100px;
-}
-
-#toggle {
-	display: inline-block;
-}
-
-
 
 

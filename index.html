@@ -14,14 +14,20 @@
   </head>
   <body>
 		<div class="container">
-			<h1>To Do List (ID: 74)</h1>
-      <div class="row">
+			<div class="row">
+				<div class="col-xs-8">
+					<h1>To Do List</h1>
+				</div>
+				<div class="col-xs-4" id="idControl">
+					<label for="apiId">API ID:</label>
+					<input name="APIid" type="number" min="0" value="74" id="apiId" />
+				</div>
         <div class="col-xs-12">
           <table class="table table-responsive" id="taskTable">
 						<thead>
               <tr>
                 <th class="status" scope="col"></th>
-                <th class="task" scope="col">Task</th>
+                <th class="task" scope="col">Task Description</th>
                 <th class="date" scope="col">Date Created</th>
                 <th class="dueDate" scope="col">Due Date</th>
 								<th class="remove" scope="col"></th>
