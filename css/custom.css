@@ -1,4 +1,4 @@
-td.remove, #sortAndToggle {
+td.remove, #toggle {
 	text-align: right;
 }
 
@@ -6,12 +6,8 @@ td.remove, #sortAndToggle {
 	width: 150px;
 }
 
-#sort, #toggle {
+#toggle {
 	display: inline-block;
-}
-
-#sort {
-	margin-right: 40px;
 }
 
 h1, table {

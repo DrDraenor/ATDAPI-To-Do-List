@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
     <script src="js/application.js"></script>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -52,7 +53,7 @@
           </table>
         </div>
 				
-				<form class="col-xs-7" id="addTask">
+				<form class="col-xs-9" id="addTask">
 					<label for="newTask">Add New Task:</label>
           <input name="task" type="text" placeholder="New Task" id="newTask" required/>
 					<label for="newTaskDueDate">Due date (opt.):</label>
@@ -60,17 +61,9 @@
           <button class="btn btn-sm">add</button>
         </form>
 				
-				<div class="col-xs-5" id="sortAndToggle">
-					<div id="sort">
-						Sort By:
-						<button class="btn btn-sm">Name</button>
-						<button class="btn btn-sm">Date</button>
-						<button class="btn btn-sm">State</button>
-					</div>
-					<div id="toggle">
+				<div class="col-xs-3" id="toggle">
 						Toggle:
 						<button class="btn btn-sm">Completed</button>
-					</div>
 				</div>
 				
 			</div>
