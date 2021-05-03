@@ -6,12 +6,20 @@ td.remove, #toggle {
 	width: 150px;
 }
 
+label[for="newTaskDueDate"], #addTask button {
+	margin-left: 10px;
+}
+
+#addTask button {
+	width: 100px;
+}
+
 #toggle {
 	display: inline-block;
 }
 
-h1, table {
-	margin-bottom: 20px;
+h1, #taskTable {
+	margin-bottom: 40px;
 }
 
 .completed .task, .completed .date, .completed .dueDate {
